@@ -1,0 +1,80 @@
+.hot-topics {
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-4xl);
+  color: var(--black-801);
+}
+.hero-child,
+.hero-item {
+  top: 80px;
+  left: 0;
+  border-radius: var(--br-md);
+  width: 100%;
+}
+.hero-child {
+  object-fit: cover;
+}
+.hero-item {
+  background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.65));
+}
+.read-more {
+  color: var(--black-801);
+}
+.nisi-sagittis-aliquet-container {
+  top: 80px;
+  right: 0px;
+  line-height: 180%;
+  font-family: var(--font-playfair-display);
+  display: inline-block;
+  width: 100%;
+  font-size: 20px;
+  color: var(--color-darkslategray-100);
+  overflow-y: scroll;
+}
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background:none;
+}
+.cnn-indonesia,
+.hours-ago,
+.massa-tortor-nibh {
+  top: 430px;
+  left: 32px;
+  line-height: 150%;
+  color: black;
+  margin-bottom: 5px;
+}
+.cnn-indonesia,
+.hours-ago {
+  font-size: 18px;
+}
+
+.massa-tortor-nibh {
+
+  font-size: var(--font-size-4xl);
+  display: inline-block;
+  font-family: var(--font-playfair-display);
+}
+.hero {
+  position: relative;
+  max-width: 1170px;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--text-s-regular1-size);
+  color: var(--white3);
+  font-family: var(--small-bold);
+  width: 90%;
+}
+.imageConHot{
+  position: relative;
+}

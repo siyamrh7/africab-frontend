@@ -1,0 +1,65 @@
+.latest-news {
+ 
+  font-size: var(--font-size-6xl);
+  display: inline-block;
+  color: var(--black-801);
+  width: 201px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+.cnn-indonesia2,
+.hour-ago1 {
+  position: absolute;
+  top: 270px;
+  left: 0;
+}
+.cnn-indonesia2 {
+  left: 77px;
+}
+.news-title-lorem1 {
+  position: absolute;
+  top: 192px;
+  left: 0;
+  font-size: var(--font-size-2xl);
+  display: inline-block;
+  font-family: var(--font-playfair-display);
+  color: var(--black-801);
+  width: 270px;
+}
+.rectangle-textarea {
+  border: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-md);
+  width: 270px;
+  height: 176px;
+  background-image: url(../../public/rectangle3@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.hour-ago-group {
+
+  width: 270px;
+  height: 294px;
+}
+.flex-news-cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+  margin: auto;
+}
+.news-cards {
+  position: relative;
+  max-width: 1170px;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--text-s-regular1-size);
+  color: var(--color-gray-100);
+  font-family: var(--small-bold);
+  width: 90%;
+}

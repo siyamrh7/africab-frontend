@@ -1,0 +1,114 @@
+.singin-child,
+.singin-item {
+  position: absolute;
+  top: 0;
+  left: 720px;
+  width: 720px;
+  height: 1024px;
+}
+.singin-item {
+  top: 2px;
+  left: 0;
+  height: 1022px;
+  object-fit: cover;
+}
+.ready-to-get {
+  position: absolute;
+  top: 0;
+  left: 18.53%;
+  line-height: 80px;
+  white-space: nowrap;
+}
+.group-child {
+  position: absolute;
+  height: 55%;
+  width: 15.38%;
+  top: 17.5%;
+  right: 84.62%;
+  bottom: 27.5%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.ready-to-get-started-parent {
+  position: absolute;
+  height: 7.81%;
+  width: 19.86%;
+  top: 88.87%;
+  right: 76.94%;
+  bottom: 3.32%;
+  left: 3.19%;
+  font-family: var(--font-dm-sans);
+}
+.bridging-the-gap {
+  position: absolute;
+  top: 87px;
+  left: 46px;
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--light-text-white1);
+  text-align: left;
+  display: inline-block;
+  width: 80%;
+  line-height: 180%;
+}
+.forget-your-password,
+.signup-for-new {
+  position: absolute;
+  top: 0;
+  font-weight: 500;
+}
+.forget-your-password {
+  left: 0;
+  display: inline-block;
+  width: 245px;
+}
+.signup-for-new {
+  left: 298px;
+  text-decoration: underline;
+  color: var(--color-darkslategray-200);
+}
+.forget-your-password-parent {
+ position: relative;
+  width: 525px;
+  height: 24px;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-400);
+}
+.singin {
+  position: relative;
+  width: 100vw;
+  height:100vh;
+  text-align: center;
+  font-size: var(--font-size-3xl);
+  color: var(--color-linen-200);
+  font-family: var(--text-m-regular1);
+  overflow-y: scroll;
+
+}
+.singin-main{
+  margin: auto;
+  height: auto;
+  display: flex;
+  width:100vw ;
+ 
+}
+
+.signin-left{
+  position: relative;
+background-image: url("../../public/rectangle-5@2x.png");
+flex: 1;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.signin-right{
+  position: relative;
+  flex: 1;
+  background-color: var(--color-linen-100);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 50px;
+}

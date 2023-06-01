@@ -1,0 +1,554 @@
+.content1 {
+    max-width: 1440px;
+    margin: auto;
+}
+.marque{
+    height: 60px;
+    padding: 15px;
+    font-size: 1.3rem;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    -webkit-font-smoothing: subpixel-antialiased
+}
+
+.Appp {
+   height: auto;
+    text-align: center;
+  
+  }
+  .videoPre{
+    border: 10px solid var(--color-purple);
+    margin-bottom: 20px;
+  }
+  .containerp {
+    width: 100%;
+    margin: 15% auto;
+  }
+  .col-4p {
+    /* width: 25%; */
+    float: left;
+  }
+  
+  .h1p {
+    font-size: 38px;
+    text-transform: uppercase;
+    line-height: 1;
+  }
+  
+  @media (min-width: 768px) {
+    .containerp {
+      width: 1100px;
+    }
+    .h1p {
+      font-size: 58px;
+    }
+  }
+
+.prev-btn {
+    z-index: 100000;
+    position: absolute;
+}
+
+.next-btn {
+    z-index: 1000000;
+    position: absolute;
+
+}
+
+/* .communityModal {
+    all: unset;
+    top: 50%; 
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 100% ;
+    height: 700px
+} */
+.comModal{
+    position: absolute;
+    inset: 50% auto auto 50%;
+    border: 1px solid rgb(204, 204, 204);
+    background: rgb(255, 255, 255);
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: 700px;
+}
+.glow-on-hover {
+    width: 200px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: var(--color-purple);
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .content1 {
+        width: 95%;
+        padding: 20px 0px;
+    }
+
+    .frame-parent1 {
+        width: 100%;
+    }
+
+    .filter-parent {
+        width: 100%;
+    }
+
+    .filter {
+        flex: 2.2;
+        overflow: visible;
+    }
+
+    .cards {
+        flex: 5.5;
+    }
+
+    .more-option {
+        flex: 2.3;
+    }
+
+    .results-parent {
+        width: 100%;
+    }
+
+    .frame-parent5 {
+        gap: 1px;
+    }
+
+    .mollit-in-laborum {
+        height: 20px;
+        overflow: hidden;
+    }
+
+    .full-time {
+        display: none;
+    }
+
+    .restaurants-and-bar {
+        font-size: 1.2rem;
+    }
+
+    .frame-form {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .comModal{
+        width: 90%;
+        padding: 0px;
+        height: 600px;
+    }
+    .glow-on-hover {
+        all: unset;
+    }
+
+    .ask-button {
+        right: 30px;
+        bottom: 20px;
+    }
+
+    .imageSliderConin,
+    .imageSliderCon {
+        width: 100%;
+        text-align: center;
+        height: auto;
+    }
+
+    .slideimage {
+        width: 100%;
+        height: auto;
+    }
+
+    .imagesmain {
+        width: 100%;
+        position: relative;
+        height: auto;
+    }
+
+    .more-option {
+        display: none;
+    }
+
+    .filter {
+        flex: 2;
+        overflow: visible;
+    }
+
+    .cards {
+        flex: 8;
+    }
+
+    #outer-container {
+        display: block;
+    }
+
+    .bm-burger-button {
+        display: block;
+    }
+
+    .column {
+        display: none;
+
+    }
+
+    .column1 {
+        display: none;
+    }
+
+    .navbar {
+        padding: 0px;
+    }
+
+    .massa-tortor-nibh {
+        font-size: 1.3rem;
+        width: 40%;
+    }
+
+    .hero-child,
+    .hero-item {
+        position: absolute;
+        top: 80px;
+        left: 0;
+        border-radius: var(--br-md);
+        width: 100%;
+        height: 400px;
+    }
+
+    .nisi-sagittis-aliquet-container {
+        width: 100%;
+        top: 500px;
+        z-index: 2;
+    }
+
+    .hero {}
+
+    .massa-tortor-nibh {
+        width: 80%;
+        font-size: 1.4rem;
+    }
+
+    .latest-news,
+    .hot-topics {
+        font-size: 1.8rem;
+    }
+
+    .the-place-for-official-announc {
+        display: none;
+    }
+
+    .card-parent {
+        width: 90%;
+    }
+
+    .text-content {
+        padding: 10px;
+    }
+
+    .signin-left {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .filter {
+        display: none;
+    }
+
+    .mollit-in-laborum {
+        height: 50px;
+        overflow: hidden;
+    }
+
+    .find-information-easily-container {
+        font-size: 2rem;
+        line-height: 120%;
+    }
+
+    .thousands-of-information {
+        font-size: 1rem;
+    }
+
+    .frame-child1,
+    .frame-input,
+    .search1 {
+        font-size: 12px !important;
+        padding: 10px;
+    }
+
+    .frame-div button {
+        padding: 0px;
+    }
+
+    .search {
+        padding: 10% 5%;
+    }
+
+    .mobile-frame4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 5%;
+    }
+
+    .frame-parent4 {
+        display: none;
+    }
+
+    .frame-icon {
+        display: none;
+
+    }
+
+    .high-to-low-parent {
+        width: auto;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+    .frame-parent1 {
+        padding: 10px;
+    }
+
+    .mappinline-parent {
+        gap: 3px;
+
+    }
+
+    .junior-ui-designer-wrapper {
+        font-size: 1.2rem;
+    }
+
+    .pagination {
+        gap: 5px;
+    }
+
+    .mobile-filter-btn {
+        display: block;
+        width: 26px;
+        height: auto;
+    }
+
+    .high-to-low-parent {
+        display: none;
+    }
+
+    .filter-text {
+        margin: 0px;
+        font-size: 1.2rem;
+        font-weight: bold;
+        display: block;
+    }
+
+    .mobile-h-t-p {
+        display: block;
+    }
+
+    .group-div {
+        width: 90%;
+    }
+
+    .wrapper-x {
+        flex: 1;
+        flex-shrink: 1;
+        padding: 10px;
+    }
+
+    .wrapper-x .competitive-salary {
+        white-space: nowrap;
+    }
+
+    .vector-wrapper {
+        display: none;
+    }
+
+    .we-connect-top-container {
+        right: 20px;
+        top: 25%;
+        zoom: 0.5;
+
+    }
+
+    .group-child5 {
+        height: 70px;
+        width: 70px;
+    }
+
+    .picture {
+        top: 30px;
+        left: 40px;
+    }
+
+    .frame-parent18 {
+        left: 90px;
+    }
+
+    .mobile-none {
+        display: none;
+    }
+
+    .frame-parent21 {
+        top: 5px;
+        gap: 5px;
+    }
+
+    .social-media-icon {
+        width: 15px;
+        height: 15px;
+    }
+
+    .social-media-wrapper {
+        width: auto;
+        height: auto;
+    }
+
+    .company {
+        font-size: 1rem;
+    }
+
+    .frame-child31 {
+        width: 100%;
+    }
+
+    .rectangle-parent {
+        width: 100%;
+        position: relative;
+    }
+
+    .login-wrapper {
+        width: 100%;
+        padding: 15px 0px !important;
+
+    }
+
+    .google-logo-parent {
+        width: 100%;
+        padding: 15px 0px !important;
+        gap: 5px;
+    }
+
+    .forget-your-password-parent {
+        width: 100%;
+    }
+
+    .group-inner {
+        width: 100%;
+    }
+
+    .login-with-account-parent {
+        width: 80%;
+    }
+
+    .mdieye-off-outline-icon {
+        right: 10px;
+        left: auto;
+    }
+
+    .signin-right {
+        padding: 0;
+    }
+
+    .login-with-account {
+        font-size: 1.6rem;
+    }
+
+    .forget-your-password-parent {
+        font-size: 0.8rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .forget-your-password-parent div,
+    .forget-your-password-parent a {
+        position: static;
+        width: auto;
+    }
+
+    .signup-with-account-parent {
+        width: 80%;
+        gap: 10px;
+    }
+
+    .signup-with-account-parent .login-with-account {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+}
+
+.company-parent .social-media-icon {
+    display: none;
+}

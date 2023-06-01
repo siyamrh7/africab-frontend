@@ -1,0 +1,62 @@
+.frame-child36 {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.andhika-sudarman,
+.chief-executive-officer {
+  position: relative;
+  line-height: 20px;
+}
+.chief-executive-officer {
+  font-weight: 500;
+  color: var(--color-dimgray-100);
+}
+.andhika-sudarman-parent,
+.ellipse-parent6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ellipse-parent6 {
+  flex-direction: row;
+  gap: var(--gap-sm);
+}
+.description,
+.devider-icon {
+  position: relative;
+  display: none;
+}
+.devider-icon {
+  align-self: stretch;
+  max-width: 100%;
+  overflow: hidden;
+  height: 0;
+  flex-shrink: 0;
+}
+.description {
+  line-height: 20px;
+  color: var(--neutral-901);
+  width: 296px;
+}
+.frame-parent22 {
+  border-radius: var(--br-xs);
+  background-color: var(--color-linen-200);
+  border: 1px solid var(--color-whitesmoke-400);
+  box-sizing: border-box;
+  width: 328px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  text-align: left;
+  font-size: var(--text-m-regular1-size);
+  color: var(--color-gray-500);
+  font-family: var(--text-m-regular1);
+}

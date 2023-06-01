@@ -1,0 +1,121 @@
+.create-an-account,
+.lets-get-started {
+  position: relative;
+  display: inline-block;
+  width: 514px;
+}
+.create-an-account {
+  font-size: var(--font-size-7xl);
+  font-weight: 600;
+  color: var(--color-gray-800);
+}
+.lets-get-started {
+  color: var(--color-dimgray-400);
+}
+.frame-child32 {
+  position: relative;
+  background-color: var(--light-text-white1);
+  border: 1px solid var(--color-darkslategray-600);
+  box-sizing: border-box;
+  width: 508px;
+  height: 64px;
+  flex-shrink: 0;
+}
+.email1,
+.password1,
+.phone {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 64px;
+}
+.email1,
+.password1 {
+  width: 74px;
+}
+.password1 {
+  width: 111px;
+}
+.group-child1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--light-text-white1);
+  border: 1px solid var(--color-darkslategray-600);
+  box-sizing: border-box;
+  width: 508px;
+  height: 64px;
+}
+.mdieye-off-outline-icon1 {
+  position: absolute;
+  top: 20px;
+  left: 460px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.rectangle-group {
+  position: relative;
+  width: 508px;
+  height: 64px;
+  flex-shrink: 0;
+}
+.must-be-at1 {
+  position: relative;
+  font-size: var(--text-l-bold1-size);
+  font-weight: 500;
+  color: var(--color-dimgray-400);
+  display: inline-block;
+  width: 245px;
+}
+.create-an-account-wrapper {
+  background-color: var(--color-purple);
+  width: 514px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-11xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  color: var(--light-text-white1);
+}
+.google-logo-icon1 {
+  position: relative;
+  width: 26px;
+  height: 26px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.signup-with-google {
+  position: relative;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.google-logo-group {
+  background-color: var(--light-text-white1);
+  border: 1px solid var(--color-silver);
+  box-sizing: border-box;
+  width: 514px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-11xl) var(--padding-xs)
+    var(--padding-9xl);
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xl);
+  color: var(--color-gray-900);
+}
+.create-an-account-parent {
+  position: absolute;
+  top: 65px;
+  left: 854px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray-200);
+  font-family: var(--text-m-regular1);
+}

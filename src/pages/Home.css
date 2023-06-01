@@ -1,0 +1,88 @@
+.home {
+  position: relative;
+  background-color: var(--color-linen-100);
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.mostPopular {
+  line-height: 31.2px;
+  width: 80%;
+  height: 24px;
+  font-family: "DM Sans";
+  font-weight: 400;
+  font-size: 22px;
+  margin-top: 10px;
+ 
+}
+.categorie {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  gap: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  scroll-behavior: smooth;
+  width: 85%;
+
+}
+
+.citem {
+  white-space: nowrap;
+  padding: 8px 0px 8px 0px;
+  isolation: isolate;
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #62646A;
+}
+
+.citem-active {
+  border-bottom: 4px solid #647B3D;
+
+}
+
+.categorie::-webkit-scrollbar {
+  display: none;
+  background: transparent;
+  /* make scrollbar transparent */
+  -webkit-appearance: none;
+  width: 0;
+  height: 0;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.categorie {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.button-c {
+  border: 0;
+  color: #777;
+  font-size: 24px;
+  margin: 0 8px;
+}
+
+.cat2 {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-header1);
+
+}

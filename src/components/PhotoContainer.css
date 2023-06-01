@@ -1,0 +1,111 @@
+.badge3,
+.photo-icon3 {
+  border-radius: var(--br-4xl);
+}
+.photo-icon3 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.badge3 {
+  position: relative;
+  background-color: var(--light-system-success1);
+  border: 1px solid var(--light-text-white1);
+  box-sizing: border-box;
+  width: 8px;
+  height: 8px;
+  flex-shrink: 0;
+}
+.status5 {
+  position: relative;
+  line-height: 20px;
+  display: none;
+}
+.d-status-dot2 {
+  position: absolute;
+  right: 2px;
+  bottom: 2px;
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.d-avatar2 {
+  position: relative;
+  border-radius: var(--br-4xl);
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}
+.brandon-steward {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.i-iconimagesquare-swap {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.photo4 {
+  position: relative;
+  line-height: 20px;
+}
+.i-iconimagesquare-swap-parent,
+.sender-name-and-message2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.i-iconimagesquare-swap-parent {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+  color: var(--color-purple);
+  font-family: var(--font-dm-sans);
+}
+.sender-name-and-message2 {
+  flex: 1;
+  overflow: hidden;
+  flex-direction: column;
+  gap: var(--gap-6xs);
+}
+.am1 {
+  position: relative;
+  line-height: 16px;
+}
+.message2,
+.status6 {
+  display: flex;
+  justify-content: flex-start;
+}
+.status6 {
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  font-size: var(--text-s-regular1-size);
+  color: var(--light-bg-block-31);
+  font-family: var(--font-dm-sans);
+}
+.message2 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-lg);
+  align-items: flex-start;
+  gap: var(--gap-4xs);
+  text-align: left;
+  font-size: var(--text-m-regular1-size);
+  color: var(--light-text-primary1);
+  font-family: var(--paragraph-s1);
+}

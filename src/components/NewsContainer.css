@@ -1,0 +1,40 @@
+.cnn-indonesia1,
+.hour-ago {
+  position: absolute;
+  top: 270px;
+  left: 0;
+}
+.cnn-indonesia1 {
+  left: 77px;
+}
+.news-title-lorem {
+  top: 192px;
+  font-size: var(--font-size-2xl);
+  display: inline-block;
+  font-family: var(--font-playfair-display);
+  color: var(--black-801);
+  height: 70px;
+  overflow: hidden;
+}
+.group-child6,
+.news-title-lorem {
+  position: absolute;
+  left: 0;
+  width: 270px;
+}
+.group-child6 {
+  top: 0;
+  border-radius: var(--br-md);
+  height: 176px;
+  object-fit: cover;
+}
+.hour-ago-parent {
+  height: 294px;
+  text-align: left;
+  font-size: var(--text-s-regular1-size);
+  color: var(--color-gray-100);
+  font-family: var(--small-bold);
+  width: 270px;
+position: relative;
+margin-bottom: 20px;
+}
